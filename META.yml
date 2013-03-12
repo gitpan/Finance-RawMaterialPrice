@@ -1,5 +1,5 @@
 ---
-abstract: 'Perl extension for getting the current gold and'
+abstract: 'To get the current gold and silver price'
 author:
   - 'sdrfnord <sdrfnord@gmx.de>'
 build_requires:
@@ -17,7 +17,9 @@ no_index:
   directory:
     - t
     - inc
-requires: {}
+requires:
+  LWP::Simple: 0
 resources:
-  x_Repository: https://github.com/sdrfnord/Finance-RawMaterialPrice
-version: 0.01
+  bugtracker: https://github.com/sdrfnord/Finance-RawMaterialPrice/issues
+  repository: https://github.com/sdrfnord/Finance-RawMaterialPrice
+version: 0.02

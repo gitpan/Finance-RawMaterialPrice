@@ -1,5 +1,5 @@
 {
-   "abstract" : "Perl extension for getting the current gold and",
+   "abstract" : "To get the current gold and silver price",
    "author" : [
       "sdrfnord <sdrfnord@gmx.de>"
    ],
@@ -31,12 +31,19 @@
          }
       },
       "runtime" : {
-         "requires" : {}
+         "requires" : {
+            "LWP::Simple" : 0
+         }
       }
    },
    "release_status" : "stable",
    "resources" : {
-      "x_Repository" : "https://github.com/sdrfnord/Finance-RawMaterialPrice"
+      "bugtracker" : {
+         "web" : "https://github.com/sdrfnord/Finance-RawMaterialPrice/issues"
+      },
+      "repository" : {
+         "url" : "https://github.com/sdrfnord/Finance-RawMaterialPrice"
+      }
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }
